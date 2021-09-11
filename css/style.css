@@ -14,13 +14,18 @@
 .bg-dark.scrolled {
     background:#000 !important;
 }
+@media (max-width: 767px) { /* Change collapse bg color white on mobile */
+    .navbar-collapse
+      {
+          background-color:#f7f7f7;
+      }
+  }
 
 /* Intro */
 
 #intro{
     height: 100vh;
-    width: 100%;
-    background-image: url('/img/placeholder.jpg'); /* placeholder img */
+    background-image: url('../img/placeholder.jpg'); /* placeholder img */
     background-size: cover;
 }
 
