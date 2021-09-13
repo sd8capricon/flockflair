@@ -32,13 +32,6 @@ nav:hover{
     background-color: rgb(0, 0, 0, 0.7) !important;
 }
 
-@media screen and (max-width: 970px) { /* Change collapse bg color on mobile */
-    .navbar-collapse
-      {
-          background-color:#000;
-      }
-}
-
 /* Intro */
 
 #intro{
@@ -93,7 +86,7 @@ nav:hover{
     margin: auto;
     width: 18rem;
     border-radius: 10px;
-    box-shadow: 0 0 5px grey;
+    box-shadow: 0 0 20px 0.5px grey;
 }
 
 /* Media */
@@ -108,5 +101,19 @@ nav:hover{
     }
     #intro > div > p{
         font-size: 2rem;
+    }
+}
+
+/* For upto md display */
+
+@media screen and (max-width: 768px) { /* Change collapse bg color on mobile */
+    .navbar-collapse
+    {
+        background-color:#000;
+    }
+    .img-logo{
+        margin: 1rem 2rem;
+        height: 6rem;
+        width: 6rem;
     }
 }
