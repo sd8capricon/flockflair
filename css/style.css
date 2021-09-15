@@ -164,7 +164,7 @@ nav:hover {
 /*service section*/
 #services {
   padding: 0vh 7vw;
-  background-image: url("../downloads/gears.jpg");
+  background-image: url("../img/features1.png");
 }
 
 #services .box {
