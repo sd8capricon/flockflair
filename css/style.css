@@ -1,3 +1,23 @@
+/* Misc */
+
+.description {
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.section-header{
+  text-align: center;
+}
+
+.parallax{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* Nav */
 .bg-light {
   background: transparent !important;
@@ -316,26 +336,6 @@ nav:hover {
   content: "";
   background-color: #acc6ec;
   transition: 0.5s;
-}
-
-/* Misc */
-
-.description {
-  font-size: 14px;
-  line-height: 28px;
-  margin-bottom: 0;
-  text-align: center;
-}
-
-.section-header{
-  text-align: center;
-}
-
-.parallax{
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 /* Media */
