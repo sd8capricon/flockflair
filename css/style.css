@@ -41,7 +41,6 @@ nav:hover {
   height: 100vh;
   background-image: radial-gradient(rgb(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
     url("../img/placeholder2.jpg"); /* placeholder img */
-  background-size: cover;
 }
 
 #intro > * {
@@ -82,17 +81,6 @@ nav:hover {
 
 .description-color {
   background-color: white;
-}
-
-.description {
-  font-size: 14px;
-  line-height: 28px;
-  margin-bottom: 0;
-  text-align: center;
-}
-
-.section-header{
-  text-align: center;
 }
 
 #about{
@@ -176,6 +164,7 @@ nav:hover {
 /*service section*/
 #services {
   padding: 0vh 7vw;
+  background-image: url("../downloads/gears.jpg");
 }
 
 #services .box {
@@ -327,6 +316,26 @@ nav:hover {
   content: "";
   background-color: #acc6ec;
   transition: 0.5s;
+}
+
+/* Misc */
+
+.description {
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.section-header{
+  text-align: center;
+}
+
+.parallax{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Media */
