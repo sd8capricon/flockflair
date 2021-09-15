@@ -81,7 +81,7 @@ nav:hover{
     width: 8rem;
 }
 
-/
+
 
 
 
@@ -165,6 +165,7 @@ nav:hover{
     content: '';
     background-color: #708fbe;
     transition: .5s;
+
   }*/
 
   /*service s3ection*/
@@ -237,6 +238,8 @@ nav:hover{
  .image img{
      width: 100%;
  }
+
+  }
   
   #why-us .box {
     padding: 30px;
