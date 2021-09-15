@@ -91,6 +91,10 @@ nav:hover {
   text-align: center;
 }
 
+.section-header{
+  text-align: center;
+}
+
 #about{
   margin: 8vh 0;
   padding: 0vh 7vw;
@@ -172,7 +176,6 @@ nav:hover {
 /*service section*/
 #services {
   padding: 0vh 7vw;
-  text-align: center;
 }
 
 #services .box {
@@ -232,6 +235,10 @@ nav:hover {
 
 .image img {
   width: 100%;
+}
+
+#why-us{
+  overflow: hidden;
 }
 
 #why-us .box {
