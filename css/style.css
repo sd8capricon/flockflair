@@ -83,14 +83,7 @@ nav:hover{
 
 
 
-/* Services */
-.card{
-    
-    margin: auto;
-    width: 18rem;
-    border-radius: 10px;
-    box-shadow: 0 0 20px 0.5px grey;
-}
+
 
 /*ABOUT us*/
 .description-color
@@ -172,8 +165,177 @@ nav:hover{
     content: '';
     background-color: #708fbe;
     transition: .5s;
+
+  }*/
+
+  /*service s3ection*/
+  #services {
+    padding: 60px 0 40px 0;
   }
   
+  #services .box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 10px 40px 10px;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+  }
+  
+  #services .box:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  
+  #services .icon {
+    margin: 0 auto 15px auto;
+    padding-top: 12px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+  
+  #services .icon i {
+    font-size: 36px;
+    line-height: 1;
+  }
+  
+  #services .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  #services .title a {
+    color: #111;
+  }
+  
+  #services .box:hover .title a {
+    color: #1bb1dc;
+  }
+  
+  #services .description {
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+ #services {
+    padding: 60px 0 40px 0;
+  }
+   /*Why us*/
+
+ .box {
+     width: fit-content;
+ }
+
+ .image img{
+     width: 100%;
+ }
+
+  }
+  
+  #why-us .box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 10px 40px 10px;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+  }
+  
+  #why-us .box:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  
+  #why-us .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  #why-us .title a {
+    color: #111;
+  }
+  
+  #why-us .box:hover .title a {
+    color: #1bb1dc;
+  }
+  
+  #why-us .description {
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+
+  #why-us {
+    padding: 80px 0;
+  }
+  
+  #why-us .why-content {
+    padding-top: 90px;
+  }
+  
+ #why-us .why-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #why-us .why-content ul li {
+    padding-bottom: 10px;
+  }
+  
+  #why-us .why-content ul li i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: #1bb1dc;
+  }
+  
+  #why-us .why-img {
+    position: relative;
+    margin: 30px 30px 30px 30px;
+  }
+  
+  #why-us .why-img img {
+    width: 100%;
+    border: 8px solid #fff;
+    transition: .5s;
+  }
+  #why-us .why-img::before {
+    position: absolute;
+    left: -31px;
+    top: -30px;
+    width: 60%;
+    height: 62%;
+    z-index: -1;
+    content: '';
+    background-color: #acc6ec;
+    transition: .5s;
+  }
+  
+  #why-us .why-img::after {
+    position: absolute;
+    right: -31px;
+    bottom: -30px;
+    width: 60%;
+    height: 62%;
+    z-index: -1;
+    content: '';
+    background-color: #acc6ec;
+    transition: .5s;
+  }*/
 
 /* Media */
 
