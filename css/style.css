@@ -320,23 +320,29 @@ nav:hover {
 
 /* Portfolio */
 
-.inner-item{
-  margin: 0 70px 70px;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
+/* #portfolio .carousel{
+  margin: 100px 0;
+} */
+
+#portfolio .carousel-item{
+  padding-right: 10%;
 }
 
-.inner-item-content{
-  margin: 0 10%;
+#portfolio .content{
+  position: relative;
+  top: 25%;
+  left: 25%;
 }
 
 #portfolio img{
-  height: 200px;
-  width: 300px;
   object-fit: cover;
   border-radius: 20px;
   box-shadow: 0 0 10px white;
+}
+
+#portfolio .row{
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 
@@ -483,7 +489,7 @@ nav:hover {
   background-size: cover;
 }
 
-/* Media */
+/* Mobile */
 
 /* For lg display */
 @media screen and (min-width: 970px) {
@@ -501,6 +507,9 @@ nav:hover {
 /* For upto md display */
 
 @media screen and (max-width: 768px) {
+  
+  /* Intro */
+
   /* Change collapse bg color on mobile */
   .navbar-collapse {
     background-color: #000;
@@ -510,4 +519,13 @@ nav:hover {
     height: 6rem;
     width: 6rem;
   }
+
+  /* Portfolio */
+  #portfolio p{
+    display: none;
+  }
+  #portfolio .carousel-item{
+    padding: 0 10%;
+  }
+
 }
