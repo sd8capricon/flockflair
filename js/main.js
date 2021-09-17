@@ -1,3 +1,4 @@
+// Nav Bar
 const nav = document.querySelector("nav");
 function addOpacity() {
     if (window.pageYOffset > 200) {
@@ -7,3 +8,9 @@ function addOpacity() {
     }
 }
 window.addEventListener("scroll", addOpacity);
+
+// Scroll
+
+var scroll = new SmoothScroll('a[href*="#"]', {
+    header: 'nav'
+});
