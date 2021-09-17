@@ -164,7 +164,7 @@ nav:hover {
 /*service section (Sahil)*/
 #services {
   padding: 0vh 7vw;
-  background-image: url("../img/features1.png");
+  background-image: url("../img/features1.jpg");
 }
 
 #services .box {
@@ -320,12 +320,13 @@ nav:hover {
 
 /* Portfolio */
 
-/* #portfolio .carousel{
-  margin: 100px 0;
-} */
-
 #portfolio .carousel-item{
   padding-right: 10%;
+}
+
+#portfolio .row{
+  margin-top: 10px;
+  margin-bottom: 70px;
 }
 
 #portfolio .content{
@@ -337,14 +338,8 @@ nav:hover {
 #portfolio img{
   object-fit: cover;
   border-radius: 20px;
-  box-shadow: 0 0 10px white;
+  box-shadow: 0 0 10px 2px white;
 }
-
-#portfolio .row{
-  margin-top: 10px;
-  margin-bottom: 50px;
-}
-
 
 /* Team */
 
@@ -521,11 +516,19 @@ nav:hover {
   }
 
   /* Portfolio */
-  #portfolio p{
-    display: none;
+  
+  #portfolio .carousel{
+    margin: 20px 0;
   }
+
   #portfolio .carousel-item{
     padding: 0 10%;
   }
-
+  #portfolio .col-lg-6{
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  #portfolio p{
+    display: none;
+  }
 }
