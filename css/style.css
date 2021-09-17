@@ -84,7 +84,7 @@ nav:hover {
 }
 
 #about{
-  margin: 8vh 0;
+  margin: 1vh 0;
   padding: 0vh 7vw;
 }
 
@@ -163,8 +163,12 @@ nav:hover {
 
 /*service section (Sahil)*/
 #services {
-  padding: 0vh 7vw;
-  background-image: url("../img/features1.jpg");
+  background-image: url("../img/features2.jpg");
+}
+
+#services .section-header{
+  color: #fff;
+  text-shadow: 0 0 15px black;
 }
 
 #services .box {
@@ -211,10 +215,6 @@ nav:hover {
 
 #services .box:hover .title a {
   color: #1bb1dc;
-}
-
-#services {
-  padding: 60px 0 40px 0;
 }
 
 /*Why us (Sahil)*/
@@ -320,6 +320,11 @@ nav:hover {
 }
 
 /* Portfolio */
+
+#portfolio{
+  background-color: #000;
+  color: #fff;
+}
 
 #portfolio .carousel-item{
   padding-right: 10%;
@@ -435,6 +440,11 @@ nav:hover {
   margin: 30px 0;
 }
 
+#contact h3{
+  color: #007bff;
+  font-family: "Open Sans", sans-serif;
+}
+
 #contact .img-fluid{
   position: relative;
   top: 10%;
@@ -450,7 +460,7 @@ nav:hover {
 }
 
 .section-header{
-  padding-top: 10px;
+  padding-top: 30px;
   text-align: center;
 }
 
