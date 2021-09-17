@@ -336,6 +336,10 @@ nav:hover {
   left: 25%;
 }
 
+#portfolio p{
+  padding-right: 40%;
+}
+
 #portfolio img{
   object-fit: cover;
   border-radius: 20px;
