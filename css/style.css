@@ -73,8 +73,8 @@ nav:hover {
 
 .img-logo {
   margin: 1rem 3rem;
-  height: 8rem;
-  width: 8rem;
+  height: 10rem;
+  width: 10rem;
 }
 
 /*ABOUT us*/
@@ -216,6 +216,7 @@ nav:hover {
 #services {
   padding: 60px 0 40px 0;
 }
+
 /*Why us (Sahil)*/
 
 .box {
@@ -339,6 +340,7 @@ nav:hover {
   object-fit: cover;
   border-radius: 20px;
   box-shadow: 0 0 10px 2px white;
+  transition: 0.6s ease;
 }
 
 #portfolio img:hover{
@@ -425,38 +427,13 @@ nav:hover {
 
 /* Footer(Ronak) */
 
-#box1 {
-  width:300px; 
-  height : 150px;
-  float:left; 
-  height: 150px;
-  margin: 50px 0px 0px 60px ;
-  
+#contact{
+  margin: 30px 0;
 }
 
-#head1 {
- color : rgb(125, 154, 204);
- font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- font-size: 30px;
-}
-
-#box2 {
-  width:300px; 
-  height: 150px; 
-  float:right; 
-  margin: 50px 525px 25px 0px;
-}
-
-#head2 {
-  color : rgb(58, 51, 51);
-}
-
-#logo {
-  width:300px; 
-  height: 150px; 
-  float:right; 
-  margin: -130px 185px 50px 0px;
-
+#contact .img-fluid{
+  position: relative;
+  top: 10%;
 }
 
 /* Misc */
