@@ -40,7 +40,7 @@ nav:hover {
   align-content: center;
   height: 100vh;
   background-image: radial-gradient(rgb(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
-    url("../img/placeholder2.jpg"); /* placeholder img */
+    url("../img/placeholder2.jpg");
 }
 
 #intro > * {
@@ -163,12 +163,12 @@ nav:hover {
 
 /*service section (Sahil)*/
 #services {
-  background-image: url("../img/features2.jpg");
+  background-image: url("../img/features1.jpg");
 }
 
 #services .section-header{
   color: #fff;
-  text-shadow: 0 0 15px black;
+  /* text-shadow: 0 0 15px black; */
 }
 
 #services .box {
@@ -359,7 +359,7 @@ nav:hover {
 /* Team */
 
 #team {
-  padding: 60px 0;
+  padding: 10px 0 40px;
   text-align: center;
   /* background-color: black; */
   background-image: url("../img/team.jpg");
@@ -387,7 +387,7 @@ nav:hover {
   display: block;
 } */
 #team .member {
-  margin-bottom: 20px;
+  margin: 0 50px;
   position: relative;
   overflow: hidden;
   background-color: #ffffff;
@@ -398,15 +398,15 @@ nav:hover {
 #team .member .member-info {
   display: block;
   position: absolute;
-  bottom: 0px;
-  left: -200px;
+  bottom: -40px;
+  left: 0px;
+  right: 0px;
   transition: 0.4s;
   padding: 15px 0;
   background: rgba(0, 0, 0, 0.4);
 }
 #team .member:hover .member-info {
-  left: 0px;
-  right: 0px;
+  bottom: 0px;
 }
 #team .member h4 {
   font-weight: 700;
