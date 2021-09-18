@@ -18,7 +18,7 @@ var scroll = new SmoothScroll('a[href*="#"]', {
 
 $('[data-toggle="counter-up"]').counterUp({
     delay: 10,
-    time: 1000
+    time: 700
   });
 
 // const counters = document.querySelectorAll(".counter");

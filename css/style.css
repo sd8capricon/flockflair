@@ -94,7 +94,6 @@ nav:hover {
 
 #about .about-content h2 {
   color: #110e38;
-  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 
@@ -158,6 +157,18 @@ nav:hover {
   content: "";
   background-color: #708fbe;
   transition: 0.5s;
+}
+
+#about .counter{
+  color: #555186;
+  margin: 10px;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+#about .counter span{
+  font-size: 60px;
+  font-weight: 600;
 }
 
 /*service section (Sahil)*/
