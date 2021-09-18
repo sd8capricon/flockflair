@@ -10,7 +10,30 @@ function addOpacity() {
 window.addEventListener("scroll", addOpacity);
 
 // Scroll
-
 var scroll = new SmoothScroll('a[href*="#"]', {
     header: 'nav'
+});
+
+// Counter
+const counters = document.querySelectorAll(".counter");
+const speed = 200;
+counters.forEach(counter => {
+    function updateCount(){
+        
+        console.log("counter inner");
+        const target = +counter.getAttribute("data-target");
+        const count = +counter.innerText;
+        
+        console.log(target, count, counter);
+
+        const inc = target / speed;
+
+        if(count<target){
+            counter.innerText = count + inc;
+            setTimeout(updateCount(), 1);
+        } else {
+            count.innerText = target
+        }
+    };
+    updateCount();
 });
