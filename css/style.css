@@ -83,7 +83,7 @@ nav:hover {
   background-color: white;
 }
 
-#about{
+#about {
   margin: 1vh 0;
   padding: 0vh 7vw;
 }
@@ -143,9 +143,9 @@ nav:hover {
   width: 90%;
   height: 92%;
   z-index: -1;
-  content: '';
+  content: "";
   background-color: #708fbe;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 #about .about-img::after {
@@ -155,10 +155,9 @@ nav:hover {
   width: 90%;
   height: 92%;
   z-index: -1;
-  content: '';
+  content: "";
   background-color: #708fbe;
-  transition: .5s;
-
+  transition: 0.5s;
 }
 
 /*service section (Sahil)*/
@@ -166,7 +165,7 @@ nav:hover {
   background-image: url("../img/features1.jpg");
 }
 
-#services .section-header{
+#services .section-header {
   color: #fff;
   /* text-shadow: 0 0 15px black; */
 }
@@ -227,7 +226,7 @@ nav:hover {
   width: 100%;
 }
 
-#why-us{
+#why-us {
   overflow: hidden;
 }
 
@@ -321,38 +320,38 @@ nav:hover {
 
 /* Portfolio */
 
-#portfolio{
+#portfolio {
   background-color: #000;
   color: #fff;
 }
 
-#portfolio .carousel-item{
+#portfolio .carousel-item {
   padding-right: 10%;
 }
 
-#portfolio .row{
+#portfolio .row {
   margin-top: 10px;
   margin-bottom: 70px;
 }
 
-#portfolio .content{
+#portfolio .content {
   position: relative;
   top: 25%;
   left: 25%;
 }
 
-#portfolio p{
+#portfolio p {
   padding-right: 40%;
 }
 
-#portfolio img{
+#portfolio img {
   object-fit: cover;
   border-radius: 20px;
   box-shadow: 0 0 10px 2px white;
   transition: 0.6s ease;
 }
 
-#portfolio img:hover{
+#portfolio img:hover {
   transform: scale(1.025);
 }
 
@@ -387,12 +386,12 @@ nav:hover {
   display: block;
 } */
 #team .member {
-  margin: 0 50px;
+  margin: 0px 50px 50px;
   position: relative;
   overflow: hidden;
   background-color: #ffffff;
   padding: 10px;
-  border-radius: 15px ; /* 0px 15px 0px */
+  border-radius: 15px; /* 0px 15px 0px */
   box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.4);
 }
 #team .member .member-info {
@@ -436,16 +435,16 @@ nav:hover {
 
 /* Footer(Ronak) */
 
-#contact{
+#contact {
   margin: 30px 0;
 }
 
-#contact h3{
+#contact h3 {
   color: #007bff;
   font-family: "Open Sans", sans-serif;
 }
 
-#contact .img-fluid{
+#contact .img-fluid {
   position: relative;
   top: 10%;
 }
@@ -459,20 +458,20 @@ nav:hover {
   text-align: center;
 }
 
-.section-header{
+.section-header {
   padding-top: 30px;
   text-align: center;
 }
 
-.section-header h2{
+.section-header h2 {
   font-weight: bold;
 }
 
-.section-header h5{
+.section-header h5 {
   font-style: italic;
 }
 
-.parallax{
+.parallax {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -497,7 +496,6 @@ nav:hover {
 /* For upto md display */
 
 @media screen and (max-width: 768px) {
-  
   /* Intro */
 
   /* Change collapse bg color on mobile */
@@ -511,19 +509,19 @@ nav:hover {
   }
 
   /* Portfolio */
-  
-  #portfolio .carousel{
+
+  #portfolio .carousel {
     margin: 20px 0;
   }
 
-  #portfolio .carousel-item{
+  #portfolio .carousel-item {
     padding: 0 10%;
   }
-  #portfolio .col-lg-6{
+  #portfolio .col-lg-6 {
     text-align: left;
     margin-bottom: 20px;
   }
-  #portfolio p{
+  #portfolio p {
     display: none;
   }
 }
