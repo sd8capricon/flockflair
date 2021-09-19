@@ -40,7 +40,7 @@ nav:hover {
   align-content: center;
   height: 100vh;
   background-image: radial-gradient(rgb(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
-    url("../img/placeholder2.jpg");
+    url("../img/placeholder2.webp");
 }
 
 #intro > * {
@@ -173,7 +173,7 @@ nav:hover {
 
 /*service section (Sahil)*/
 #services {
-  background-image: url("../img/features1.jpg");
+  background-image: url("../img/features1.webp");
 }
 
 #services .section-header {
