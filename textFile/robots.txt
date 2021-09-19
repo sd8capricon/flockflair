@@ -1,2 +1,3 @@
-User-agent: [google]
-Disallow: \
+User-agent:*
+Disallow: 
+
