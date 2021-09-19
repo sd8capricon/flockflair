@@ -26,19 +26,19 @@
   transition: 0.75s ease;
 }
 .bg-light.scrolled {
-  background: #f7f7f7 !important;
+  background: #d1ebf5 !important;
 }
 .bg-dark {
   background: transparent !important;
   transition: 0.75s ease;
 }
 .bg-dark.scrolled {
-  background: #000 !important;
+  background: #d1ebf5 !important;
 }
 
 .navbar-brand {
   margin-left: 20px;
-  text-shadow: 0 0 10px black;
+  /* text-shadow: 0 0 10px black; */
   font-family: "Open Sans", sans-serif;
   display: flex;
   align-items: center;
@@ -51,7 +51,7 @@
 }
 
 nav:hover {
-  background-color: rgb(0, 0, 0, 0.7) !important;
+  background-color: rgb(209, 235, 245, 0.7) !important;
 }
 
 /* Intro */
@@ -195,12 +195,9 @@ nav:hover {
 
 /*service section (Sahil)*/
 #services {
-  background-image: url("../img/features1.webp");
-}
-
-#services .section-header {
-  color: #fff;
-  /* text-shadow: 0 0 15px black; */
+  background-color: #d1ebf5;
+  /* Task change */
+  /* Ask Sahil for the color code */
 }
 
 #services .box {
