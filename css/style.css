@@ -1,3 +1,25 @@
+/* Scroll Up Button */
+
+#rollUp{
+  display: none;
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  right: 0;
+  margin: 15px;
+}
+
+#rollUp.scroll{
+  display: grid;
+}
+
+#rollUp.btn{
+  border-radius: 100px;
+  height: 50px;
+  width: 50px;
+  align-content: center;
+}
+
 /* Nav */
 .bg-light {
   background: transparent !important;
