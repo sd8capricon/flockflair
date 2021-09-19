@@ -1,6 +1,6 @@
 /* Scroll Up Button */
 
-#rollUp{
+#rollUp {
   display: none;
   position: fixed;
   z-index: 10;
@@ -9,11 +9,11 @@
   margin: 15px;
 }
 
-#rollUp.scroll{
+#rollUp.scroll {
   display: grid;
 }
 
-#rollUp.btn{
+#rollUp.btn {
   border-radius: 100px;
   height: 50px;
   width: 50px;
@@ -181,14 +181,14 @@ nav:hover {
   transition: 0.5s;
 }
 
-#about .counter{
+#about .counter {
   color: #555186;
   margin: 10px;
   font-family: "Open Sans", sans-serif;
   text-align: center;
 }
 
-#about .counter span{
+#about .counter span {
   font-size: 60px;
   font-weight: 600;
 }
