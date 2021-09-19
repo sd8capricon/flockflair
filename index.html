@@ -25,7 +25,7 @@
 </head>
 
 <body>
-  <header>
+  <header id="top">
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
       <!-- can also use dark theme -->
       <div class="container-fluid">
@@ -59,18 +59,49 @@
       </div>
       <a href="#about" class="btn btn-outline-light">Get Started</a>
       <div class="image-container">
-        <a href="https://dbit.acm.org" target="#"> <img class="img-logo" src="./img/logo.png" alt="ACMlogo"></a>
+        <a href="https://dbit.acm.org" target="#"> <img class="img-logo" src="./img/acm logo.png" alt="ACMlogo"></a>
         <a href="https://dbit.in" target="#"> <img class="img-logo" src="./img/DBIT.png" alt="DBIT"></a>
-
       </div>
     </section>
   </header>
 
+  <a href="#top" id="rollUp" class="init btn btn-primary"><i class="fa fa-chevron-up"></i></a>
+
+
   <!-- About -->
   <section id="about">
     <div class="container">
-      <h2>About Us</h2>
-      <h3>You name it, We make it</h3>
+      <div class="section-header">
+        <h2>About Us</h2>
+        <h5><i>You name it, We make it</i></h5>
+      </div>
+      <div class="row counter">
+        <div class="col-lg-3 col-6 text-center">
+          <div>
+            <span data-toggle="counter-up">5</span>
+            <p>Clients</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-6 text-center">
+          <div>
+            <span data-toggle="counter-up">30</span>
+            <p>Projects</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-6 text-center">
+          <div>
+            <span data-toggle="counter-up">100</span>
+            <p>Hours of Support</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-6 text-center">
+          <div>
+            <span data-toggle="counter-up">30</span>
+            <p>Hard Workers</p>
+          </div>
+        </div>
+      </div>
+
       <div class="row">
         <div class="col-lg-7 col-md-6">
           <div class="about-content">
@@ -96,7 +127,6 @@
             <img src="./img/chat.png" alt="Team discussion">
           </div>
         </div>
-
       </div>
     </div>
   </section>
@@ -104,7 +134,7 @@
   <!-- Services -->
   <section id="services" class="section-bg parallax">
     <div class="container">
-      <header class="section-header" style="color: white;">
+      <header class="section-header">
         <h2>Our Services</h2>
         <h5>
           <p>FlockFlair gives importance to develop skills of its team and increase the domain of knowledge.</p>
@@ -184,14 +214,12 @@
 
     </div>
   </section>
-  <!-- Section suggestion - Timeline of projects -->
 
   <!-- Why us -->
   <section id="why-us">
     <div class="container">
       <div class="section-header">
         <h2>Why Choose Us?</h2>
-        <!-- Counter -->
         <h5>
           <p>Choosing someone for your task is in itself a BIG TASK.</p>
         </h5><br>
@@ -231,6 +259,7 @@
               <img src="./img/brain2.jpg" alt="mind">
             </div>
             <u>
+              <br>
               <h4 class="title">Enthusiastic Minds</h4>
             </u>
             <p class="description">Our team has very talented developers who have experience in various
@@ -249,7 +278,6 @@
           </div>
           <div class="col-lg-7 col-md-6">
             <div class="why-content">
-
               <ul>
                 <li><i class="fas fa-handshake"></i> We assure our clients that we will be providing them with best
                   services and fulfil their expectations.</li>
@@ -268,7 +296,74 @@
     </div>
   </section>
 
-  <section id="portfolio"></section>
+  <section id="portfolio">
+    <div id="PCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#PCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#PCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#PCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="section-header">
+        <h2>Our Portfolio</h2>
+        <br>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="content">
+                <h2>Teknack Website</h2>
+                <p>One of the most interesting venture by ACM-DBIT which offers undergraduate engineers to learn game
+                  development, with total guidance.</p>
+              </div>
+            </div>
+            <a target="#" href="https://dbit.acm.org/teknack/" class="col-lg-6">
+              <img src="./img/tek.webp" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="content">
+                <h2>ACM-DBIT Website</h2>
+                <p>ACM-DBIT student chapter first took root in the year 2003 and currently the seventeenth vent of
+                  awesomeness. Over 700 members in the chapter, it offers various events and workshops which help the
+                  members to grow their skill over the period of time.</p>
+              </div>
+            </div>
+            <a target="#" href="https://dbit.acm.org/index" class="col-lg-6">
+              <img src="./img/acm.webp" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="content">
+                <h2>DBIT Placement Cell Website</h2>
+                <p>DBIT Training And Placement Cell strongly assimilates St.Don Bosco’s message to the world i.e. "Help
+                  Each Other". The TnP cell has a student centric approach and guides students to get their dream job.
+                  It helps students to connect with more than 100 companies.</p>
+              </div>
+            </div>
+            <a target="#" href="https://placement.dbit.in/" class="col-lg-6">
+              <img src="./img/tnp.webp" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#PCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#PCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
 
   <section id="team" class="parallax">
     <div class="container">
@@ -283,34 +378,16 @@
         <div class="col-lg-4 col-md-6">
           <div class="member">
             <div class="member-img">
-              <img src="./img/boy.png" class="img-fluid"
-                alt="founder">
-            </div>
-            <div class="member-info">
-              <h4>Dheeraj James</h4>
-              <span>Founder, Chairperson</span>
-              <div class="social-links">
-                <a href="https://www.linkedin.com/in/dheeraj-j-a4215413a/"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://github.com/dheerajjames"><i class="fab fa-github"></i></a>
-                <a href="https://www.instagram.com/james_dheeraj/"><i class="fab fa-instagram"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-          <div class="member">
-            <div class="member-img">
-              <img src="./img/boy2.png" class="img-fluid" alt="Cofounder">
+              <img src="./img/Grejo3.png" class="img-fluid" alt="CoFounder">
             </div>
             <div class="member-info">
               <h4>Grejo Joby</h4>
-              <span>Co-Founder, President</span>
+              <span>Co-Founder, Director</span>
               <div class="social-links">
-                <a href="https://www.linkedin.com/in/grejojoby/"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://github.com/grejo-joby"><i class="fab fa-github"></i></a>
-                <a href="https://www.instagram.com/grejojoby/"><i class="fab fa-instagram"></i></a>
-                <a href="https://twitter.com/grejo00"><i class="fab fa-twitter"></i></a>
+                <a target="#" href="https://www.linkedin.com/in/grejojoby/"><i class="fab fa-linkedin-in"></i></a>
+                <a target="#" href="https://github.com/grejo-joby"><i class="fab fa-github"></i></a>
+                <a target="#" href="https://www.instagram.com/grejojoby/"><i class="fab fa-instagram"></i></a>
+                <a target="#" href="https://twitter.com/grejo00"><i class="fab fa-twitter"></i></a>
               </div>
             </div>
           </div>
@@ -319,16 +396,32 @@
         <div class="col-lg-4 col-md-6">
           <div class="member">
             <div class="member-img">
-              <img src="./img/boy3.png" class="img-fluid"
-                alt="Vice president">
+              <img src="./img/Hayden.png" class="img-fluid" alt="Asst. Director">
             </div>
             <div class="member-info">
               <h4>Hayden Cordeiro</h4>
-              <span>Vice President, Head of Operations</span>
+              <span>Asst. Director</span>
               <div class="social-links">
-                <a href="https://www.linkedin.com/in/haydencordeiro/"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://github.com/haydencordeiro"><i class="fab fa-github"></i></a>
-                <a href="https://www.instagram.com/haydencordeiro/"><i class="fab fa-instagram"></i></a>
+                <a target="#" href="https://www.linkedin.com/in/haydencordeiro/"><i class="fab fa-linkedin-in"></i></a>
+                <a target="#" href="https://github.com/haydencordeiro"><i class="fab fa-github"></i></a>
+                <a target="#" href="https://www.instagram.com/haydencordeiro/"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="member">
+            <div class="member-img">
+              <img src="./img/Ruvin.jpg" class="img-fluid" alt="Vice-president">
+            </div>
+            <div class="member-info">
+              <h4>Ruvin Rodrigues</h4>
+              <span>Head of Operations</span>
+              <div class="social-links">
+                <a target="#" href="https://www.linkedin.com/in/ruvin-rodrigues/"><i class="fab fa-linkedin-in"></i></a>
+                <a target="#" href="https://github.com/ruvin27"><i class="fab fa-github"></i></a>
+                <a target="#" href="https://www.instagram.com/ruvinnnnnnnnnn/"><i class="fab fa-instagram"></i></a>
               </div>
             </div>
           </div>
@@ -338,30 +431,44 @@
   </section>
 
   <footer id="contact">
-    <div id="parent">
-      <div id="box1">
-        <h3 id="head1">FLOCKFLAIR</h3> <br> We from Flockflair are an initiative from the student chapter of ACM-DBIT.
-        We are passionate about helping others succeed in their goals with improving effectiveness.
-      </div>
-      <div id="box2">
-        <big id="head2">CONTACT US </big> <br> <br>
-        Don Bosco Institute of Technology,
-        Premier Automobiles Road,
-        Opp. HDIL Premier Exotica,
-        Kurla W, Mumbai,
-        Maharashtra, India 400070
-        <br> <br>
-        Phone: +91 7678060548
-        <br>
-        Email: flockflair@gmail.com
-      </div>
-      <div id="logo">
-        <img src="./img/banner.png" alt="Flockflair" width="420px" height="150px">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-6">
+          <h3>FLOCKFLAIR</h3>
+          <p>We from Flockflair are an initiative from the student chapter of ACM-DBIT. We are passionate about helping
+            others succeed in their goals with improving effectiveness.</p>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <h4>CONTACT US</h4>
+          <address>
+            Don Bosco Institute of Technology, <br> Premier Automobiles Road, <br> Opp. HDIL Premier Exotica,
+            <br> Kurla W, Mumbai, <br> Maharashtra, India 400070<br> <br>
+            <strong>Phone:</strong> +91 7678060548<br>
+            <strong>Email:</strong> flockflair@gmail.com<br>
+          </address>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <img class="img-fluid" src="./img/banner-flock.png">
+        </div>
       </div>
     </div>
   </footer>
 
   <!-- Javascript -->
+
+  <!-- Waypoints -->
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- Waypoints -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+    integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- CounterUp -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+    integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!-- Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -369,6 +476,8 @@
   <!-- AOS -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>AOS.init();</script>
+  <!-- SmoothScroll -->
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
   <!-- Local -->
   <script src="./js/main.js"></script>
 

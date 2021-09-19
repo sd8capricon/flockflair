@@ -1,3 +1,25 @@
+/* Scroll Up Button */
+
+#rollUp {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  right: 0;
+  margin: 15px;
+}
+
+#rollUp.scroll {
+  display: grid;
+}
+
+#rollUp.btn {
+  border-radius: 100px;
+  height: 50px;
+  width: 50px;
+  align-content: center;
+}
+
 /* Nav */
 .bg-light {
   background: transparent !important;
@@ -40,7 +62,7 @@ nav:hover {
   align-content: center;
   height: 100vh;
   background-image: radial-gradient(rgb(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
-    url("../img/placeholder2.jpg"); /* placeholder img */
+    url("../img/placeholder2.webp");
 }
 
 #intro > * {
@@ -73,8 +95,8 @@ nav:hover {
 
 .img-logo {
   margin: 1rem 3rem;
-  height: 8rem;
-  width: 8rem;
+  height: 10rem;
+  width: 10rem;
 }
 
 /*ABOUT us*/
@@ -83,8 +105,8 @@ nav:hover {
   background-color: white;
 }
 
-#about{
-  margin: 8vh 0;
+#about {
+  margin: 1vh 0;
   padding: 0vh 7vw;
 }
 
@@ -94,7 +116,6 @@ nav:hover {
 
 #about .about-content h2 {
   color: #110e38;
-  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 
@@ -143,9 +164,9 @@ nav:hover {
   width: 90%;
   height: 92%;
   z-index: -1;
-  content: '';
+  content: "";
   background-color: #708fbe;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 #about .about-img::after {
@@ -155,16 +176,31 @@ nav:hover {
   width: 90%;
   height: 92%;
   z-index: -1;
-  content: '';
+  content: "";
   background-color: #708fbe;
-  transition: .5s;
+  transition: 0.5s;
+}
 
+#about .counter {
+  color: #555186;
+  margin: 10px;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+#about .counter span {
+  font-size: 60px;
+  font-weight: 600;
 }
 
 /*service section (Sahil)*/
 #services {
-  padding: 0vh 7vw;
-  background-image: url("../img/features1.png");
+  background-image: url("../img/features1.webp");
+}
+
+#services .section-header {
+  color: #fff;
+  /* text-shadow: 0 0 15px black; */
 }
 
 #services .box {
@@ -213,9 +249,6 @@ nav:hover {
   color: #1bb1dc;
 }
 
-#services {
-  padding: 60px 0 40px 0;
-}
 /*Why us (Sahil)*/
 
 .box {
@@ -226,7 +259,7 @@ nav:hover {
   width: 100%;
 }
 
-#why-us{
+#why-us {
   overflow: hidden;
 }
 
@@ -318,10 +351,47 @@ nav:hover {
   transition: 0.5s;
 }
 
+/* Portfolio */
+
+#portfolio {
+  background-color: #000;
+  color: #fff;
+}
+
+#portfolio .carousel-item {
+  padding-right: 10%;
+}
+
+#portfolio .row {
+  margin-top: 10px;
+  margin-bottom: 70px;
+}
+
+#portfolio .content {
+  position: relative;
+  top: 25%;
+  left: 25%;
+}
+
+#portfolio p {
+  padding-right: 40%;
+}
+
+#portfolio img {
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 2px white;
+  transition: 0.6s ease;
+}
+
+#portfolio img:hover {
+  transform: scale(1.025);
+}
+
 /* Team */
 
 #team {
-  padding: 60px 0;
+  padding: 10px 0 40px;
   text-align: center;
   /* background-color: black; */
   background-image: url("../img/team.jpg");
@@ -349,26 +419,26 @@ nav:hover {
   display: block;
 } */
 #team .member {
-  margin-bottom: 20px;
+  margin: 0px 50px 50px;
   position: relative;
   overflow: hidden;
   background-color: #ffffff;
   padding: 10px;
-  border-radius: 15px ; /* 0px 15px 0px */
+  border-radius: 15px; /* 0px 15px 0px */
   box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.4);
 }
 #team .member .member-info {
   display: block;
   position: absolute;
-  bottom: 0px;
-  left: -200px;
+  bottom: -40px;
+  left: 0px;
+  right: 0px;
   transition: 0.4s;
   padding: 15px 0;
   background: rgba(0, 0, 0, 0.4);
 }
 #team .member:hover .member-info {
-  left: 0px;
-  right: 0px;
+  bottom: 0px;
 }
 #team .member h4 {
   font-weight: 700;
@@ -396,40 +466,20 @@ nav:hover {
   margin: 0 2px;
 }
 
-/* Footer(Ronak) */
+/* Footer */
 
-#box1 {
-  width:300px; 
-  height : 150px;
-  float:left; 
-  height: 150px;
-  margin: 50px 0px 0px 60px ;
-  
+#contact {
+  margin: 30px 0;
 }
 
-#head1 {
- color : rgb(125, 154, 204);
- font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- font-size: 30px;
+#contact h3 {
+  color: #007bff;
+  font-family: "Open Sans", sans-serif;
 }
 
-#box2 {
-  width:300px; 
-  height: 150px; 
-  float:right; 
-  margin: 50px 525px 25px 0px;
-}
-
-#head2 {
-  color : rgb(58, 51, 51);
-}
-
-#logo {
-  width:300px; 
-  height: 150px; 
-  float:right; 
-  margin: -130px 185px 50px 0px;
-
+#contact .img-fluid {
+  position: relative;
+  top: 10%;
 }
 
 /* Misc */
@@ -441,26 +491,27 @@ nav:hover {
   text-align: center;
 }
 
-.section-header{
+.section-header {
+  padding-top: 30px;
   text-align: center;
 }
 
-.section-header h2{
+.section-header h2 {
   font-weight: bold;
 }
 
-.section-header h5{
+.section-header h5 {
   font-style: italic;
 }
 
-.parallax{
+.parallax {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* Media */
+/* Mobile */
 
 /* For lg display */
 @media screen and (min-width: 970px) {
@@ -478,6 +529,8 @@ nav:hover {
 /* For upto md display */
 
 @media screen and (max-width: 768px) {
+  /* Intro */
+
   /* Change collapse bg color on mobile */
   .navbar-collapse {
     background-color: #000;
@@ -486,5 +539,22 @@ nav:hover {
     margin: 1rem 2rem;
     height: 6rem;
     width: 6rem;
+  }
+
+  /* Portfolio */
+
+  #portfolio .carousel {
+    margin: 20px 0;
+  }
+
+  #portfolio .carousel-item {
+    padding: 0 10%;
+  }
+  #portfolio .col-lg-6 {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  #portfolio p {
+    display: none;
   }
 }
