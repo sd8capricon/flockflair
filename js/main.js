@@ -9,13 +9,24 @@ function addOpacity() {
 }
 window.addEventListener("scroll", addOpacity);
 
-// Scroll
-var scroll = new SmoothScroll('a[href*="#"]', {
+// Scroll Up button
+const scrollUP = document.getElementById("rollUp");
+console.log(scrollUP);
+function displayButton() {
+    if (window.pageYOffset > 500) {
+        scrollUP.classList.add("scroll");
+    } else {
+        scrollUP.classList.remove("scroll");
+    }
+}
+window.addEventListener("scroll", displayButton);
+
+// Smooth scroll offset
+const scroll = new SmoothScroll('a[href*="#"]', {
     header: 'nav'
 });
 
 // Counter
-
 $('[data-toggle="counter-up"]').counterUp({
     delay: 10,
     time: 700
