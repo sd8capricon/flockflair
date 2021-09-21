@@ -134,7 +134,7 @@ nav:hover {
 #about .about-content ul li i {
   font-size: 20px;
   padding-right: 4px;
-  color: #1bb1dc;
+  color: #457bbd;
 }
 
 #about .about-img {
@@ -155,30 +155,32 @@ nav:hover {
 }
 #about .about-img::before {
   position: absolute;
-  left: -31px;
-  top: -30px;
-  width: 90%;
-  height: 92%;
+  left: -27px;
+  top: -26px;
+  width: 85%;
+  height: 80%;
   z-index: -1;
   content: "";
-  background-color: #708fbe;
+  background-color: 
+  #457bbd;
   transition: 0.5s;
 }
 
 #about .about-img::after {
   position: absolute;
-  right: -31px;
-  bottom: -30px;
-  width: 90%;
-  height: 92%;
+  right: -27px;
+  bottom: -26px;
+  width: 85%;
+  height: 80%;
   z-index: -1;
   content: "";
-  background-color: #708fbe;
+  background-color:  
+#457bbd;
   transition: 0.5s;
 }
 
 #about .counter {
-  color: #555186;
+  color: #457bbd;
   margin: 10px;
   font-family: "Open Sans", sans-serif;
   text-align: center;
@@ -284,7 +286,7 @@ nav:hover {
 }
 
 #why-us .box:hover .title a {
-  color: #1bb1dc;
+  color: #457bbd;
 }
 
 #why-us {
@@ -307,7 +309,7 @@ nav:hover {
 #why-us .why-content ul li i {
   font-size: 20px;
   padding-right: 4px;
-  color: #1bb1dc;
+  color: #457bbd;
 }
 
 #why-us .why-img {
@@ -322,26 +324,72 @@ nav:hover {
 }
 #why-us .why-img::before {
   position: absolute;
-  left: -31px;
-  top: -30px;
-  width: 60%;
-  height: 62%;
+  left: -27px;
+  top: -26px;
+  width: 85%;
+  height: 80%;
   z-index: -1;
   content: "";
-  background-color: #acc6ec;
+  background-color: #457bbd;
   transition: 0.5s;
 }
 
 #why-us .why-img::after {
   position: absolute;
-  right: -31px;
-  bottom: -30px;
-  width: 60%;
-  height: 62%;
+  right: -27px;
+  bottom: -26px;
+  width: 85%;
+  height: 80%;
   z-index: -1;
   content: "";
-  background-color: #acc6ec;
+  background-color: #457bbd;
   transition: 0.5s;
+}
+
+#why-us .box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 10px 40px 10px;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+#why-us .box:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#why-us .icon {
+  margin: 0 auto 15px auto;
+  padding-top: 12px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+#why-us .icon i {
+  font-size: 36px;
+  line-height: 1;
+}
+
+#why-us .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#why-us .title a {
+  color: #111;
+}
+
+#why-us .box:hover .title a {
+  color: #1bb1dc;
 }
 
 /* Portfolio */
