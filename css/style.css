@@ -38,16 +38,13 @@
 
 .navbar-brand {
   margin-left: 20px;
-  /* text-shadow: 0 0 10px black; */
   font-family: "Open Sans", sans-serif;
   display: flex;
   align-items: center;
 }
 
-.navbar-brand > img {
-  height: inherit;
-  width: 3.8rem;
-  margin-right: 10px;
+.navbar-brand .brand-image{
+  height: 60px;
 }
 
 nav:hover {
@@ -81,7 +78,7 @@ nav:hover {
 }
 
 #intro span {
-  color: #007bff;
+  color: #007bff; /* #007bff; #34337b*/
   font-weight: 700;
 }
 
