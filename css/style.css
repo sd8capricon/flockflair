@@ -57,41 +57,25 @@ nav:hover {
 
 /* Intro */
 
-#intro {
-  display: grid;
-  color: white;
-  align-content: center;
+#intro .img-holder{
   height: 100vh;
-  background-image: linear-gradient(
-      rgb(255, 255, 255, 0.7),
-        rgb(0,0,0,0.7)
-    ),
-    url("../img/placeholder2.webp");
-  filter: blur(2px);
-  /* background-image: radial-gradient(rgb(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
-    url("../img/placeholder2.webp"); */
+  background-image: url("../img/placeholder2.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(5px);
 }
 
-#intro > * {
+#intro .intro-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#intro .intro-content .intro-info{
+  color: white;
   text-align: center;
-  text-shadow: 0 0 10px black;
-  margin: 0.5rem auto;
-}
-
-#intro > div > h1 {
-  font-family: "Open Sans", sans-serif;
-}
-
-#intro > div > p {
-  font-family: "Roboto", sans-serif;
-  font-weight: 200;
-}
-
-#intro span {
-  text-shadow: 0 0 5px #20204d;
-  /* text-shadow: none; */
-  color: #363683; /* #007bff; #34337b*/
-  font-weight: 700;
 }
 
 .image-container {
