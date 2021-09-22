@@ -1,5 +1,5 @@
 /* Scroll Up Button */
-body{
+body {
   margin: 0;
   padding: 0;
 }
@@ -48,28 +48,36 @@ body{
 }
 
 .navbar-brand .brand-image {
-  height: 60px;
+  /* height: 60px; */
+  height: 63px;
 }
 
 .nav-link {
-  color: black !important;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(36, 36, 36) !important;
 }
 
 nav:hover {
-  /* background-color: rgb(209, 235, 245, 0.7) !important; */
+  background-color: rgb(209, 235, 245, 0.8) !important;
 }
 
 /* Intro */
-#intro{
+#intro {
   padding: 0;
   margin: 0;
 }
 
-#intro .img-holder{
+#intro .img-holder {
   height: 100vh;
   background-image: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgb(0,0,0,0.5) 55%
+      to bottom,
+      rgb(209, 235, 245, 0.6),
+      rgb(158, 168, 181, 0.6),
+      rgb(108, 107, 116, 0.6),
+      rgb(57, 54, 57, 0.6),
+      rgb(0, 0, 0, 0.6) 75%
     ),
     url("../img/placeholder2.webp");
   background-position: center;
@@ -83,10 +91,10 @@ nav:hover {
   position: absolute;
   width: 100%;
   height: 100vh;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(3px);
 }
 
-#intro .intro-content{
+#intro .intro-content {
   position: absolute;
   width: 100%;
   top: 50%;
@@ -94,32 +102,32 @@ nav:hover {
   transform: translate(-50%, -50%);
 }
 
-#intro .intro-content .intro-info{
+#intro .intro-content .intro-info {
   color: white;
   text-align: center;
   text-shadow: 0 0 10px black;
 }
 
 #intro .intro-content .intro-info h1 {
-  font-size: 80px;
+  /* font-size: 80px; */
   font-family: "Open Sans", sans-serif;
 }
 
 #intro .intro-content .intro-info p {
-  font-size: 32px;
   font-family: "Roboto", sans-serif;
   font-weight: 200;
 }
 
 #intro .intro-content .intro-info h1 span {
-  color: #007bff; /* #007bff; #34337b*/
+  text-shadow: none;
+  /* text-shadow: 0 0 10px rgba(78, 78, 148, 0.55); */
+  color: #363683; /* #007bff; #34337b*/
   font-weight: 700;
 }
 
 .img-container {
   display: flex;
   justify-content: center;
-
 }
 
 .img-logo {
@@ -545,7 +553,7 @@ nav:hover {
 }
 
 #contact h3 {
-  color: #007bff;
+  color: #363683;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -590,10 +598,10 @@ nav:hover {
   nav {
     height: 4.3rem;
   }
-  #intro > div > h1 {
+  #intro .intro-content .intro-info h1 {
     font-size: 5rem;
   }
-  #intro > div > p {
+  #intro .intro-content .intro-info p {
     font-size: 2rem;
   }
 }
