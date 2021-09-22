@@ -26,12 +26,14 @@
 
 <body>
   <header id="top">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <!-- can also use dark theme -->
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img class="brand-image" src="./img/f.png" alt="logo">
-          <h2>FlockFlair</h2>
+          <img class="brand-image" src="./img/FlockflairLogo.png" alt="logo">
+          <!-- <img class="brand-image" src="./img/f.png" alt="logo"> -->
+          <!-- <img class="brand-image" src="./img/FlockflairLogoText.png" alt="logo"> -->
+          <!-- <h2>FlockFlair</h2> -->
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,18 +51,19 @@
         </div>
       </div>
     </nav>
-    <section id="intro" class="parallax">
+    <section id="intro">
       <!-- Placeholder Image -->
-      <div>
-        <h1><span>FlockFlair</span>, Solutions</h1>
-        <h1>for Your Business!</h1>
-        <p>An Initiative by ACM Student Chapter,<br>
-          Don Bosco Institute of Technology, Mumbai</p>
-      </div>
-      <a href="#about" class="btn btn-outline-light">Get Started</a>
-      <div class="image-container">
-        <a href="https://dbit.acm.org" target="#"> <img class="img-logo" src="./img/acm logo.png" alt="ACMlogo"></a>
-        <a href="https://dbit.in" target="#"> <img class="img-logo" src="./img/DBIT.png" alt="DBIT"></a>
+      <div class="img-holder"></div>
+      <div class="intro-content">
+        <div class="intro-info">
+          <h1><span>FlockFlair</span>, Solutions <br>for Your Business!</h1>
+          <p>An Initiative by ACM Student Chapter,<br>
+            Don Bosco Institute of Technology, Mumbai</p>
+        </div>
+        <div class="img-container">
+          <a href="https://dbit.acm.org" target="#"> <img class="img-logo" src="./img/acm logo.png" alt="ACMlogo"></a>
+          <a href="https://dbit.in" target="#"> <img class="img-logo" src="./img/DBIT.png" alt="DBIT"></a>
+        </div>
       </div>
     </section>
   </header>
@@ -142,18 +145,21 @@
       </header>
 
       <div class="row">
-        <div class="col-md-6 col-lg-4" data-aos="flip-up" data-aos-delay="400" data-aos-easing="ease-in-out">
+        <div class="col-md-6 col-lg-4" >
           <div class="box">
+
             <div class="icon" style="background: #fceef3;"><i class="fas fa-globe" style="color:  #f35489;"></i></div>           
               <h4 class="title">Web Development</h4>          
+
             <p class="description">Our team has very talented developers who have experience in various
               institute level and higher level projects even for university level as well.
             </p>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4" data-aos="flip-up" data-aos-delay="500" data-aos-easing="ease-in-out">
+        <div class="col-md-6 col-lg-4" >
           <div class="box">
             <div class="icon" style="background:  #fff0da;"><i class="fas fa-book-open" style="color:  #e98e06;"></i>
+
             </div>
               <h4 class="title">Wix Websites</h4>
             <p class="description">We also have a good experience in making quick websites on Wix platform for
@@ -161,9 +167,10 @@
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-4" data-aos="flip-up" data-aos-delay="600" data-aos-easing="ease-in-out">
+        <div class="col-md-6 col-lg-4" >
           <div class="box">
             <div class="icon" style="background: #e6fdfc;"><i class="fab fa-microblog" style="color:  #3fcdc7;"></i>
+
             </div>
               <h4 class="title">Wordpress Development</h4>
             <p class="description">We can also develop websites for cutomers with limited technology knowledge using
@@ -174,6 +181,7 @@
         <div class="col-md-6 col-lg-4" data-aos="flip-up" data-aos-delay="500" data-aos-easing="ease-in-out">
           <div class="box">
             <div class="icon" style="background:  #eafde7;"><i class="fas fa-laptop-code" style="color:#41cf2e;"></i>
+
             </div>
               <h4 class="title">Programming</h4>
             <p class="description">We have students well versed with various languages like C/C++/Python/Java and many
@@ -181,9 +189,10 @@
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-4" data-aos="flip-up" data-aos-delay="600" data-aos-easing="ease-in-out">
+        <div class="col-md-6 col-lg-4" >
           <div class="box">
             <div class="icon" style="background:  #e1eeff;"><i class="fas fa-gamepad" style="color: #1271ee;"></i>
+
             </div>
               <h4 class="title">Unity Development</h4>
             <p class="description">We have developed multiple games using Unity Engine and have deployed them on
@@ -194,6 +203,7 @@
         <div class="col-md-6 col-lg-4" data-aos="flip-up" data-aos-delay="700" data-aos-easing="ease-in-out">
           <div class="box">
             <div class="icon" style="background:  #ecebff;"><i class="fas fa-crop-alt" style="color: #8660fe;"></i></div>
+
               <h4 class="title">Graphic Design</h4>
             <p class="description">We have creative designers who can make amazing logo designs, posters and other
               graphic content. Give us freedom and you get amazing designs.</p>
@@ -216,22 +226,24 @@
       </div>
 
       <div class="row">
-        <div class="col-md-6 col-lg-4" data-aos="slide-right" data-aos-delay="300" data-aos-easing="ease-in-out">
+        <div class="col-md-6 col-lg-4" >
           <div class="box">
           <div class="icon" style="background: #ecebff;">
               <i class="fas fa-rupee-sign" style="color:#457bbd;"></i>
             </div>
                 <h4 class="title">Value For Money</h4>
+
             <p class="description">Our team has very talented developers who have experience in various
               institute level and higher level projects even for university level as well.
             </p>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-4" data-aos="slide-up" data-aos-delay="400" data-aos-easing="ease-in-out">
+        <div class="col-md-6 col-lg-4" >
           <div class="box">
             <div class="icon" style="background: #ecebff;">
               <i class="fas fa-users" style="color: #457bbd;"></i>
+
             </div>
               <h4 class="title">Team Of Diversity</h4>
             <p class="description">Our team has very talented developers who have experience in various
@@ -240,10 +252,11 @@
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-4" data-aos="slide-left" data-aos-delay="500" data-aos-easing="ease-in-out">
+        <div class="col-md-6 col-lg-4" >
           <div class="box">
             <div class="icon" style="background: #ecebff;">
               <i class="fas fa-brain" style="color: #457bbd;"></i>
+
             </div>
               <h4 class="title">Enthusiastic Minds</h4>
             <p class="description">Our team has very talented developers who have experience in various
