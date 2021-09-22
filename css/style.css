@@ -157,7 +157,8 @@ nav:hover {
 }
 
 #about .about-content h3 {
-  color: #1d1b3a;
+  color: 
+  #457bbd;
   font-weight: 400;
   font-size: 22px;
   font-style: italic;
@@ -175,7 +176,8 @@ nav:hover {
 #about .about-content ul li i {
   font-size: 20px;
   padding-right: 4px;
-  color: #457bbd;
+  color:
+  #457bbd;
 }
 
 #about .about-img {
@@ -196,30 +198,33 @@ nav:hover {
 }
 #about .about-img::before {
   position: absolute;
-  left: -27px;
-  top: -26px;
-  width: 85%;
+  left: -23px;
+  top: -22px;
+  width: 82%;
   height: 80%;
   z-index: -1;
   content: "";
-  background-color: #457bbd;
+  background-color: 
+  #457bbd;
   transition: 0.5s;
 }
 
 #about .about-img::after {
   position: absolute;
-  right: -27px;
-  bottom: -26px;
-  width: 85%;
+  right: -23px;
+  bottom: -22px;
+  width: 82%;
   height: 80%;
   z-index: -1;
   content: "";
-  background-color: #457bbd;
+  background-color:
+  #457bbd;
   transition: 0.5s;
 }
 
 #about .counter {
-  color: #457bbd;
+  color:
+  #457bbd;
   margin: 10px;
   font-family: "Open Sans", sans-serif;
   text-align: center;
@@ -233,8 +238,11 @@ nav:hover {
 /*service section (Sahil)*/
 #services {
   background-color: #f5f8fd;
-  /* Task change */
-  /* Ask Sahil for the color code */
+}
+
+#services .section-header {
+  color: #000;
+  /* text-shadow: 0 0 15px black; */
 }
 
 #services .box {
@@ -325,7 +333,7 @@ nav:hover {
 }
 
 #why-us .box:hover .title a {
-  color: #457bbd;
+  color:  #457bbd;
 }
 
 #why-us {
@@ -348,7 +356,7 @@ nav:hover {
 #why-us .why-content ul li i {
   font-size: 20px;
   padding-right: 4px;
-  color: #457bbd;
+  color:  #457bbd;
 }
 
 #why-us .why-img {
@@ -363,25 +371,25 @@ nav:hover {
 }
 #why-us .why-img::before {
   position: absolute;
-  left: -27px;
-  top: -26px;
-  width: 85%;
+  left: -23px;
+  top: -22px;
+  width: 82%;
   height: 80%;
   z-index: -1;
   content: "";
-  background-color: #457bbd;
+  background-color:  #457bbd;
   transition: 0.5s;
 }
 
 #why-us .why-img::after {
   position: absolute;
-  right: -27px;
-  bottom: -26px;
-  width: 85%;
+  right: -23px;
+  bottom: -22px;
+  width: 82%;
   height: 80%;
   z-index: -1;
   content: "";
-  background-color: #457bbd;
+  background-color:  #457bbd;
   transition: 0.5s;
 }
 
