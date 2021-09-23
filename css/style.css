@@ -30,7 +30,8 @@ body {
   transition: 0.75s ease;
 }
 .bg-light.scrolled {
-  background: #d1ebf5 !important;
+  /* background: #d1ebf5 !important; */
+  background-color: white !important;
 }
 .bg-dark {
   background: transparent !important;
@@ -41,15 +42,21 @@ body {
 }
 
 .navbar-brand {
-  margin-left: 20px;
   font-family: "Open Sans", sans-serif;
   display: flex;
   align-items: center;
 }
 
 .navbar-brand .brand-image {
-  /* height: 60px; */
-  height: 63px;
+  margin: 5px;
+}
+
+.navbar-brand .brand-image.img{
+  height: 50px;
+}
+
+.navbar-brand .brand-image.text{
+  height: 26px;
 }
 
 .nav-link {
@@ -60,7 +67,8 @@ body {
 }
 
 nav:hover {
-  background-color: rgb(209, 235, 245, 0.8) !important;
+  /* background-color: rgb(209, 235, 245, 0.8) !important; */
+  background-color: white !important;
 }
 
 /* Intro */
@@ -442,8 +450,8 @@ nav:hover {
 /* Portfolio */
 
 #portfolio {
-  background-color: #000;
-  color: #fff;
+  background-color: #f5f8fd;
+  color: black;
 }
 
 #portfolio .carousel-item {
@@ -466,9 +474,10 @@ nav:hover {
 }
 
 #portfolio img {
+  margin-top: 10px;
   object-fit: cover;
   border-radius: 20px;
-  box-shadow: 0 0 10px 2px white;
+  box-shadow: 0 0 15px 3px black;
   transition: 0.6s ease;
 }
 
@@ -604,7 +613,7 @@ nav:hover {
 /* For lg display */
 @media screen and (min-width: 970px) {
   nav {
-    height: 4.3rem;
+    height: 64px;
   }
   #intro .intro-content .intro-info h1 {
     font-size: 5rem;
