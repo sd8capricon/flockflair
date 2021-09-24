@@ -128,8 +128,8 @@ nav:hover {
 }
 
 #intro .intro-content .intro-info h1 span {
-  /* text-shadow: none; */
-  text-shadow: 0 0 2px black;
+  text-shadow: none;
+  /* text-shadow: 0 0 2px black; */
   color: #363683; /* #007bff; #34337b*/
   font-weight: 700;
 }
