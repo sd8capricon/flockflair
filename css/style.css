@@ -236,7 +236,7 @@ nav:hover {
 
 #about .counter span {
   font-size: 60px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /*service section (Sahil)*/
@@ -497,7 +497,6 @@ nav:hover {
 
 #team h2 {
   position: relative;
-  padding: 0px 0px 15px;
 }
 #team p {
   font-size: 15px;
@@ -593,13 +592,14 @@ nav:hover {
 }
 
 .section-header {
-  padding-top: 30px;
+  padding: 20px 0;
   text-align: center;
 }
 
 .section-header h2 {
   font-family: "Open Sans", sans-serif;
-  font-weight: bold;
+  font-size: 36px;
+  font-weight: 700;
 }
 
 .section-header h5 {
