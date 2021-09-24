@@ -18,6 +18,7 @@ body {
 }
 
 #rollUp.btn {
+  background-color: #457bbd;
   border-radius: 100px;
   height: 50px;
   width: 50px;
@@ -30,8 +31,8 @@ body {
   transition: 0.75s ease;
 }
 .bg-light.scrolled {
-  /* background: #d1ebf5 !important; */
-  background-color: white !important;
+  /* background: transparent !important; */
+  background-color: #d1ebf5 !important;
 }
 .bg-dark {
   background: transparent !important;
@@ -51,11 +52,11 @@ body {
   margin: 5px;
 }
 
-.navbar-brand .brand-image.img{
+.navbar-brand .brand-image.img {
   height: 50px;
 }
 
-.navbar-brand .brand-image.text{
+.navbar-brand .brand-image.text {
   height: 26px;
 }
 
@@ -63,12 +64,13 @@ body {
   font-size: 16px;
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
+  /* color: white !important; */
   color: rgb(36, 36, 36) !important;
 }
 
 nav:hover {
   /* background-color: rgb(209, 235, 245, 0.8) !important; */
-  background-color: white !important;
+  /* background-color: white !important; */
 }
 
 /* Intro */
@@ -81,11 +83,11 @@ nav:hover {
   height: 100vh;
   background-image: linear-gradient(
       to bottom,
-      rgb(209, 235, 245, 0.55),
-      rgb(158, 168, 181, 0.55),
-      rgb(108, 107, 116, 0.55),
-      rgb(57, 54, 57, 0.55),
-      rgb(0, 0, 0, 0.55) 75%
+      rgb(209, 235, 245, 0.7),
+      rgb(158, 168, 181, 0.7),
+      rgb(108, 107, 116, 0.7),
+      rgb(57, 54, 57, 0.7),
+      rgb(0, 0, 0, 0.7)
     ),
     url("../img/placeholder2.webp");
   background-position: center;
@@ -107,7 +109,7 @@ nav:hover {
   width: 100%;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -45%);
 }
 
 #intro .intro-content .intro-info {
@@ -117,7 +119,6 @@ nav:hover {
 }
 
 #intro .intro-content .intro-info h1 {
-  /* font-size: 80px; */
   font-family: "Open Sans", sans-serif;
 }
 
@@ -127,8 +128,8 @@ nav:hover {
 }
 
 #intro .intro-content .intro-info h1 span {
-  text-shadow: none;
-  /* text-shadow: 0 0 10px rgba(78, 78, 148, 0.55); */
+  /* text-shadow: none; */
+  text-shadow: 0 0 2px black;
   color: #363683; /* #007bff; #34337b*/
   font-weight: 700;
 }
@@ -165,8 +166,7 @@ nav:hover {
 }
 
 #about .about-content h3 {
-  color: 
-  #457bbd;
+  color: #457bbd;
   font-weight: 400;
   font-size: 22px;
   font-style: italic;
@@ -184,8 +184,7 @@ nav:hover {
 #about .about-content ul li i {
   font-size: 20px;
   padding-right: 4px;
-  color:
-  #457bbd;
+  color: #457bbd;
 }
 
 #about .about-img {
@@ -212,8 +211,7 @@ nav:hover {
   height: 80%;
   z-index: -1;
   content: "";
-  background-color: 
-  #457bbd;
+  background-color: #457bbd;
   transition: 0.5s;
 }
 
@@ -225,14 +223,12 @@ nav:hover {
   height: 80%;
   z-index: -1;
   content: "";
-  background-color:
-  #457bbd;
+  background-color: #457bbd;
   transition: 0.5s;
 }
 
 #about .counter {
-  color:
-  #457bbd;
+  color: #457bbd;
   margin: 10px;
   font-family: "Open Sans", sans-serif;
   text-align: center;
@@ -341,7 +337,7 @@ nav:hover {
 }
 
 #why-us .box:hover .title a {
-  color:  #457bbd;
+  color: #457bbd;
 }
 
 #why-us {
@@ -364,7 +360,7 @@ nav:hover {
 #why-us .why-content ul li i {
   font-size: 20px;
   padding-right: 4px;
-  color:  #457bbd;
+  color: #457bbd;
 }
 
 #why-us .why-img {
@@ -385,7 +381,7 @@ nav:hover {
   height: 80%;
   z-index: -1;
   content: "";
-  background-color:  #457bbd;
+  background-color: #457bbd;
   transition: 0.5s;
 }
 
@@ -397,7 +393,7 @@ nav:hover {
   height: 80%;
   z-index: -1;
   content: "";
-  background-color:  #457bbd;
+  background-color: #457bbd;
   transition: 0.5s;
 }
 
@@ -490,10 +486,15 @@ nav:hover {
 #team {
   padding: 10px 0 40px;
   text-align: center;
-  /* background-color: black; */
-  background-image: url("../img/team.jpg");
-  color: white;
+  /* background-image: url("../img/team.jpg"); */
+  color: black;
+  /* background-image: linear-gradient(to bottom, #d1ebf5, #e0effa, #edf3fc, #f7f9fe, #ffffff); */
 }
+
+#team .section-header {
+  /* text-shadow: 0 0 10px black; */
+}
+
 #team h2 {
   position: relative;
   padding: 0px 0px 15px;
@@ -519,7 +520,7 @@ nav:hover {
   margin: 0px 50px 50px;
   position: relative;
   overflow: hidden;
-  background-color: #ffffff;
+  background-color: #f5f8fd; /* #ffffff */
   padding: 10px;
   border-radius: 15px; /* 0px 15px 0px */
   box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.4);
@@ -532,6 +533,7 @@ nav:hover {
   right: 0px;
   transition: 0.4s;
   padding: 15px 0;
+  color: white;
   background: rgba(0, 0, 0, 0.4);
 }
 #team .member:hover .member-info {
@@ -567,11 +569,12 @@ nav:hover {
 
 #contact {
   padding: 30px 0;
-  margin: 30px 0;
+  background-color: #f5f8fd;
 }
 
 #contact h3 {
   color: #363683;
+  font-weight: 700;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -595,6 +598,7 @@ nav:hover {
 }
 
 .section-header h2 {
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
 }
 
