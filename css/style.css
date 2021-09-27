@@ -505,10 +505,6 @@ body {
   /* background-image: linear-gradient(to bottom, #d1ebf5, #e0effa, #edf3fc, #f7f9fe, #ffffff); */
 }
 
-#team .section-header {
-  /* text-shadow: 0 0 10px black; */
-}
-
 #team h2 {
   position: relative;
 }
