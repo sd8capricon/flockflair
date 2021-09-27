@@ -64,13 +64,27 @@ body {
   font-size: 16px;
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
-  /* color: white !important; */
   color: rgb(36, 36, 36) !important;
+  position: relative;
+  text-decoration: none;
 }
 
-nav:hover {
-  /* background-color: rgb(209, 235, 245, 0.8) !important; */
-  /* background-color: white !important; */
+.nav-link::after{
+  position: absolute;
+  content:" ";
+  display: block;
+  bottom: -10;
+  /* left: 25%; */
+  left: 50%;
+  width: 0%;
+  height: 2px;
+  background-color: #363683;
+  transition: 0.3s ease-out;
+}
+
+.nav-link:hover::after{
+  width: 50%;
+  transform: translate(-45%, 0);
 }
 
 /* Intro */
@@ -635,7 +649,7 @@ nav:hover {
 
   /* Change collapse bg color on mobile */
   .navbar-collapse {
-    background-color: #d1ebf5;
+    background-color: inherit;
   }
   .img-logo {
     margin: 1rem 2rem;
